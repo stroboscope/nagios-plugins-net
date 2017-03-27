@@ -1,0 +1,6 @@
+check-sockets/check_tcp_states usr/lib/nagios/plugins
+check-sockets/check_tcp6_states usr/lib/nagios/plugins
+check-sockets/check_udp_states usr/lib/nagios/plugins
+check-sockets/check_udp6_states usr/lib/nagios/plugins
+check-haproxy-multi/check_haproxy_multi usr/lib/nagios/plugins
+check-conntr-states/check_conntr_states usr/lib/nagios/plugins

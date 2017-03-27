@@ -1,0 +1,18 @@
+Source: nagios-plugins-net
+Section: net
+Priority: extra
+Maintainer: Sergey Viuchny <sergey@de-bs.ru>
+Build-Depends: debhelper (>= 8.0.0), hardening-wrapper,
+ libnetfilter-conntrack-dev,
+ libnetfilter-conntrack3,
+ libmnl-dev,
+ libmnl0,
+ libnagios-plugin-perl
+Standards-Version: 3.9.4
+
+Package: nagios-plugins-net
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: Nagios plugins for net staff
+ Set of nagios plugins concerning various network data
+

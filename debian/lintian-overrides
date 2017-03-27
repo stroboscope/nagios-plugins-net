@@ -1,0 +1,5 @@
+nagios-plugins-net: hardening-no-fortify-functions usr/lib/nagios/plugins/check_tcp6_states
+nagios-plugins-net: hardening-no-fortify-functions usr/lib/nagios/plugins/check_tcp_states
+nagios-plugins-net: hardening-no-fortify-functions usr/lib/nagios/plugins/check_udp6_states
+nagios-plugins-net: hardening-no-fortify-functions usr/lib/nagios/plugins/check_udp_states
+nagios-plugins-net: hardening-no-fortify-functions usr/lib/nagios/plugins/check_conntr_states

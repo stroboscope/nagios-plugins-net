@@ -1,0 +1,16 @@
+Set of nagios plugins for network data.
+
+
+We cannot use proc file system due to performance issues on high-loaded systems.
+
+Kernel versions >= 3.7 required
+
+"The generic NAT module is net/netfilter/nf_nat_core.c. 
+The basic elements of the NAT implementation are the nf_nat_l4proto structure
+(include/net/netfilter/nf_nat_l4proto.h) and the nf_nat_l3proto structure. 
+In kernels prior to 3.7, you will encounter the nf_nat_protocol structure 
+instead of these two structures, which replaced them as part of adding 
+IPv6 NAT support. These two structures provide a protocol-independent NAT 
+core support."
+				Linux Kernel Networking, Apress
+
